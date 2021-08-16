@@ -6,7 +6,7 @@ Balneability is defined as the quality of waters for recreacional use, for insta
 
 The water quality is assessed by the measument of the quantity of bacteria (in the case E. Coli) present in the time of sampling.
 
-##### Pipeline
+### Pipeline
 
 1 - The first dataset was taken from the state's official website: https://balneabilidade.ima.sc.gov.br/. A script (Balneability.py) was developed to perform multiple requests to the website (one for each year) and return multiple html pages with the tables. The tables were manipulated in order to organize the data into two dataframes -> one with all the variables of interest and other with location details for each point. Then, these wto dataframes were merged into a single dataframe.
 
@@ -26,7 +26,11 @@ After all the data of interest was gathered, a dashboard was develop in order to
 
 The dashboard contains a map of Florianópolis with all the points. Then it is possible to compare two point of monitoring in terms of their distributions and timeseries for the main variable of interest, bacteria in the water (E. Coli). It also contains tables with summary statistics per point, per year and per month.
 
+### Requirements
+
 For environment requirements, check requirements files (pip and conda).
+
+-----------------------
 
 In colaboration with Andhros Guimarães: https://github.com/Andhros
 
