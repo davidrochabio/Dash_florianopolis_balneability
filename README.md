@@ -26,5 +26,7 @@ After all the data of interest was gathered, a dashboard was develop in order to
 
 The dashboard contains a map of Florianópolis with all the points. Then it is possible to compare two point of monitoring in terms of their distributions and timeseries for the main variable of interest, bacteria in the water (E. Coli). It also contains tables with summary statistics per point, per year and per month.
 
+For environment requirements, check requirements files (pip and conda).
+
 In colaboration with Andhros Guimarães: https://github.com/Andhros
 
