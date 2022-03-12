@@ -1,5 +1,7 @@
 # Bathing Water Quality (balneability) - City of Florianópolis-SC, Brazil
 
+![plot](screenshots/Balneability_Dash_1.png)
+
 This project seeks to analyze data and gain meaningful insights about the water quality of the beaches in the city of Florianópolis-SC, Brazil.
 
 Balneability is defined as the quality of waters for recreacional use, for instance, to bath, swim and water sports activities.
